@@ -4,7 +4,6 @@
 #include "GridCalibrationTargetBase.hpp"
 #include <Eigen/Core>
 #include <boost/serialization/export.hpp>
-#include <boost/shared_ptr.hpp>
 #include <opencv2/core/core.hpp>
 #include <vector>
 
@@ -24,8 +23,8 @@ namespace cameras
 class GridCalibrationTargetAprilgrid : public GridCalibrationTargetBase
 {
     public:
-    typedef boost::shared_ptr< GridCalibrationTargetAprilgrid > Ptr;
-    typedef boost::shared_ptr< const GridCalibrationTargetAprilgrid > ConstPtr;
+    typedef std::shared_ptr< GridCalibrationTargetAprilgrid > Ptr;
+    typedef std::shared_ptr< const GridCalibrationTargetAprilgrid > ConstPtr;
 
     // target extraction options
     struct AprilgridOptions
@@ -117,7 +116,7 @@ class GridCalibrationTargetAprilgrid : public GridCalibrationTargetBase
 
     // create a detector instance
     AprilTags::TagCodes _tagCodes;
-    boost::shared_ptr< AprilTags::TagDetector > _tagDetector;
+    std::shared_ptr< AprilTags::TagDetector > _tagDetector;
 
     ///////////////////////////////////////////////////
     // Serialization support

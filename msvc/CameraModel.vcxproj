@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{950F0C41-34A6-31FE-8A45-C9035E987C1B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CameraModel</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CameraModel.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CameraModel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CameraModel.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CameraModel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CameraModel.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CameraModel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CameraModel.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CameraModel</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ThirdPartyLibraries-20210530\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\CameraModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -march=native</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ThirdPartyLibraries-20210530\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\CameraModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ThirdPartyLibraries-20210530\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\CameraModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ceres.lib;gflags.lib;glog.lib;opencv_core347.lib;opencv_calib3d347.lib;opencv_highgui347.lib;opencv_imgproc347.lib;opencv_world347.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/ThirdPartyLibraries-20210530/x64/vc15/lib/Release;D:/ThirdPartyLibraries-20210530/x64/vc15/lib/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc/bin/Debug/CameraModel.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc/bin/Debug/CameraModel.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ThirdPartyLibraries-20210530\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\CameraModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -march=native -O3</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ThirdPartyLibraries-20210530\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\CameraModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ThirdPartyLibraries-20210530\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\CameraModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ceres.lib;gflags.lib;glog.lib;opencv_core347.lib;opencv_calib3d347.lib;opencv_highgui347.lib;opencv_imgproc347.lib;opencv_world347.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/ThirdPartyLibraries-20210530/x64/vc15/lib/Release;D:/ThirdPartyLibraries-20210530/x64/vc15/lib/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc/bin/Release/CameraModel.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc/bin/Release/CameraModel.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ThirdPartyLibraries-20210530\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\CameraModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -march=native</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>NDEBUG;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ThirdPartyLibraries-20210530\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\CameraModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ThirdPartyLibraries-20210530\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\CameraModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ceres.lib;gflags.lib;glog.lib;opencv_core347.lib;opencv_calib3d347.lib;opencv_highgui347.lib;opencv_imgproc347.lib;opencv_world347.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/ThirdPartyLibraries-20210530/x64/vc15/lib/Release;D:/ThirdPartyLibraries-20210530/x64/vc15/lib/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc/bin/MinSizeRel/CameraModel.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc/bin/MinSizeRel/CameraModel.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ThirdPartyLibraries-20210530\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\CameraModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -march=native</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>NDEBUG;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_USE_MATH_DEFINES;_ENABLE_EXTENDED_ALIGNED_STORAGE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ThirdPartyLibraries-20210530\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\CameraModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ThirdPartyLibraries-20210530\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\CameraModel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>ceres.lib;gflags.lib;glog.lib;opencv_core347.lib;opencv_calib3d347.lib;opencv_highgui347.lib;opencv_imgproc347.lib;opencv_world347.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/ThirdPartyLibraries-20210530/x64/vc15/lib/Release;D:/ThirdPartyLibraries-20210530/x64/vc15/lib/Release/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc/bin/RelWithDebInfo/CameraModel.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc/bin/RelWithDebInfo/CameraModel.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Software\cmake-3.14.5-win64-x64\bin\cmake.exe -SE:/codefiles/NewVS/PointImageFusion/submodules/camera_model -BE:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc --check-stamp-file E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\FindOpenMP.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeCCompiler.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeCXXCompiler.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeRCCompiler.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Software\cmake-3.14.5-win64-x64\bin\cmake.exe -SE:/codefiles/NewVS/PointImageFusion/submodules/camera_model -BE:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc --check-stamp-file E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\FindOpenMP.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeCCompiler.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeCXXCompiler.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeRCCompiler.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Software\cmake-3.14.5-win64-x64\bin\cmake.exe -SE:/codefiles/NewVS/PointImageFusion/submodules/camera_model -BE:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc --check-stamp-file E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\FindOpenMP.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeCCompiler.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeCXXCompiler.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeRCCompiler.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Software\cmake-3.14.5-win64-x64\bin\cmake.exe -SE:/codefiles/NewVS/PointImageFusion/submodules/camera_model -BE:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc --check-stamp-file E:/codefiles/NewVS/PointImageFusion/submodules/camera_model/msvc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\FindOpenMP.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Software\cmake-3.14.5-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeCCompiler.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeCXXCompiler.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeRCCompiler.cmake;E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\3.14.5\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\backward.hpp" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\intrinsic_calib.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\chessboard\Chessboard.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\calib\CameraCalibration.cc" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Edge.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\FloatImage.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\GLine2D.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\GLineSegment2D.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Gaussian.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\GrayModel.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Gridder.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Homography33.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\MathUtil.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Quad.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Segment.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag16h5.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag16h5_other.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag25h7.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag25h9.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag36h11.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag36h11_other.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag36h9.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\TagDetection.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\TagDetector.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\TagFamily.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\UnionFindSimple.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\XYWeight.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\pch.h" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\Edge.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\FloatImage.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\GLine2D.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\GLineSegment2D.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\Gaussian.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\GrayModel.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\Homography33.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\MathUtil.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\Quad.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\Segment.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\TagDetection.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\TagDetector.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\TagFamily.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\UnionFindSimple.cc" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag_frontend\GridCalibrationTargetAprilgrid.hpp" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag_frontend\GridCalibrationTargetBase.hpp" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag_frontend\GridCalibrationTargetAprilgrid.cpp" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag_frontend\GridCalibrationTargetBase.cpp" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\calib\CameraCalibration.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\calib\CameraCalibrationTest.h" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\calib\CameraCalibrationTest.cc" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\chessboard\Chessboard.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\chessboard\ChessboardCorner.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\chessboard\ChessboardQuad.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\chessboard\Spline.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\Camera.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\CameraFactory.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\CataCamera.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\CostFunctionFactory.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\EquidistantCamera.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\FovCamera.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\PinholeCamera.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\PinholeFullCamera.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\PolyFisheyeCamera.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\ScaramuzzaCamera.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\SplineCamera.h" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\Camera.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\CameraFactory.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\CataCamera.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\CostFunctionFactory.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\EquidistantCamera.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\FovCamera.cpp" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\PinholeCamera.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\PinholeFullCamera.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\PolyFisheyeCamera.cpp" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\ScaramuzzaCamera.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\SplineCamera.cpp" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\code_utils\cv_utils.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\code_utils\eigen_utils.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\code_utils\math_utils\Polynomial.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\code_utils\math_utils\math_utils.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\code_utils\ros_utils.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\code_utils\sys_utils.h" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\code_utils\cv_utils.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\code_utils\math_utils\Polynomial.cpp" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\code_utils\poly_test.cpp" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\gpl\EigenQuaternionParameterization.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\gpl\EigenUtils.h" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\gpl\gpl.h" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\gpl\EigenQuaternionParameterization.cc" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\gpl\gpl.cc" />
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\sparse_graph\Transform.h" />
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\sparse_graph\Transform.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\msvc\ZERO_CHECK.vcxproj">
+      <Project>{5233D21E-62DF-379A-B1E3-674083643146}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

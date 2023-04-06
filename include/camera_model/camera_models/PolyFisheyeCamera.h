@@ -341,8 +341,8 @@ class PolyFisheyeCamera : public Camera
     double m_inv_K11, m_inv_K12, m_inv_K13, m_inv_K22, m_inv_K23;
 };
 
-typedef boost::shared_ptr< PolyFisheyeCamera > PolyFisheyeCameraPtr;
-typedef boost::shared_ptr< const PolyFisheyeCamera > PolyFisheyeCameraConstPtr;
+typedef std::shared_ptr< PolyFisheyeCamera > PolyFisheyeCameraPtr;
+typedef std::shared_ptr< const PolyFisheyeCamera > PolyFisheyeCameraConstPtr;
 
 template< typename T >
 T

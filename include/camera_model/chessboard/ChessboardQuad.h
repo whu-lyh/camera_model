@@ -1,15 +1,13 @@
 #ifndef CHESSBOARDQUAD_H
 #define CHESSBOARDQUAD_H
 
-#include <boost/shared_ptr.hpp>
-
 #include "camera_model/chessboard/ChessboardCorner.h"
 
 namespace camera_model
 {
 
 class ChessboardQuad;
-typedef boost::shared_ptr<ChessboardQuad> ChessboardQuadPtr;
+typedef std::shared_ptr<ChessboardQuad> ChessboardQuadPtr;
 
 class ChessboardQuad
 {

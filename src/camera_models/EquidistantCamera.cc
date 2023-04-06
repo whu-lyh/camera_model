@@ -2,7 +2,7 @@
 
 #include <cmath>
 #include <cstdio>
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 #include <iomanip>
 #include <iostream>
 #include <opencv2/calib3d/calib3d.hpp>
@@ -338,7 +338,7 @@ EquidistantCamera::estimateIntrinsics( const cv::Size& boardSize,
     for ( size_t i = 0; i < imagePoints.size( ); ++i )
     {
         std::vector< Eigen::Vector2d > center( boardSize.height );
-        double radius[boardSize.height];
+        double *radius = new double[boardSize.height];
         for ( int r = 0; r < boardSize.height; ++r )
         {
             std::vector< cv::Point2d > circle;

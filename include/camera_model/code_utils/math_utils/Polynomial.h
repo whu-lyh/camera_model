@@ -7,7 +7,7 @@
 #include <iostream>
 
 #include <camera_model/code_utils/eigen_utils.h>
-#include <eigen3/Eigen/Eigen>
+#include <Eigen/Eigen>
 
 namespace math_utils
 {

@@ -1,7 +1,7 @@
 #ifndef EIGENUTILS_H
 #define EIGENUTILS_H
 
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 
 #include "ceres/rotation.h"
 #include "camera_model/gpl/gpl.h"

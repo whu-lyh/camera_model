@@ -212,8 +212,8 @@ class PinholeFullCamera : public Camera
     bool m_noDistortion;
 };
 
-typedef boost::shared_ptr< PinholeFullCamera > PinholeFullCameraPtr;
-typedef boost::shared_ptr< const PinholeFullCamera > PinholeFullCameraConstPtr;
+typedef std::shared_ptr< PinholeFullCamera > PinholeFullCameraPtr;
+typedef std::shared_ptr< const PinholeFullCamera > PinholeFullCameraConstPtr;
 
 template< typename T >
 void

@@ -2,7 +2,7 @@
 
 #include <cmath>
 #include <cstdio>
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 #include <iomanip>
 #include <iostream>
 #include <opencv2/calib3d/calib3d.hpp>
@@ -396,6 +396,7 @@ FovCamera::calcKinvese( double fx, double fy, double u0, double v0 )
     m_inv_K13 = K_inv( 0, 2 );
     m_inv_K22 = K_inv( 1, 1 );
     m_inv_K23 = K_inv( 1, 2 );
+	return true;
 }
 
 double

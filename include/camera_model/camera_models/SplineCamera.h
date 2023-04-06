@@ -341,8 +341,8 @@ class SplineCamera : public Camera
     double m_inv_K11, m_inv_K12, m_inv_K13, m_inv_K22, m_inv_K23;
 };
 
-typedef boost::shared_ptr< SplineCamera > SplineCameraPtr;
-typedef boost::shared_ptr< const SplineCamera > SplineCameraConstPtr;
+typedef std::shared_ptr< SplineCamera > SplineCameraPtr;
+typedef std::shared_ptr< const SplineCamera > SplineCameraConstPtr;
 
 template< typename T >
 T

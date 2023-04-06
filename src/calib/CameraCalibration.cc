@@ -2,7 +2,7 @@
 
 #include <algorithm>
 #include <cstdio>
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 #include <fstream>
 #include <iomanip>
 #include <iostream>
@@ -105,7 +105,7 @@ CameraCalibration::calibrate( void )
     // STEP 2: Estimate extrinsics
 
 #pragma omp parallel for
-    for ( size_t i = 0; i < m_scenePoints.size( ); ++i )
+    for ( int i = 0; i < m_scenePoints.size( ); ++i )
     {
         m_camera->estimateExtrinsics( m_scenePoints.at( i ),
                                       m_imagePoints.at( i ),
@@ -321,7 +321,7 @@ CameraCalibration::drawResults( std::vector< cv::Mat >& images,
         show_unit = 1.0;
     r_show = 5 * show_unit;
 
-    size_t i;
+    int i;
 #pragma omp parallel for private( i )
     for ( i = 0; i < images.size( ); ++i )
     {

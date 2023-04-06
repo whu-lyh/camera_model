@@ -4,9 +4,7 @@
 #include <Eigen/Core>
 #include <boost/serialization/base_object.hpp>
 #include <boost/serialization/export.hpp>
-#include <boost/serialization/shared_ptr.hpp>
 #include <boost/serialization/split_member.hpp>
-#include <boost/shared_ptr.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
 #include <opencv2/core/core.hpp>
 #include <utility>
@@ -36,8 +34,8 @@ class GridCalibrationTargetBase
     virtual ~GridCalibrationTargetBase( ) {}
 
     public:
-    typedef boost::shared_ptr< GridCalibrationTargetBase > Ptr;
-    typedef boost::shared_ptr< const GridCalibrationTargetBase > ConstPtr;
+    typedef std::shared_ptr< GridCalibrationTargetBase > Ptr;
+    typedef std::shared_ptr< const GridCalibrationTargetBase > ConstPtr;
 
     /// \brief get the number of points of the full grid
     size_t size( ) const { return _rows * _cols; }

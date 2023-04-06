@@ -158,8 +158,8 @@ class FovCamera : public Camera
     double m_inv_K11, m_inv_K13, m_inv_K22, m_inv_K23;
 };
 
-typedef boost::shared_ptr< FovCamera > FovCameraPtr;
-typedef boost::shared_ptr< const FovCamera > FovCameraConstPtr;
+typedef std::shared_ptr< FovCamera > FovCameraPtr;
+typedef std::shared_ptr< const FovCamera > FovCameraConstPtr;
 
 template< typename T >
 T

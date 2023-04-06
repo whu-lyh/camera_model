@@ -9,9 +9,9 @@ namespace camera_model
 
 // forward declarations
 class ChessboardCorner;
-typedef boost::shared_ptr< ChessboardCorner > ChessboardCornerPtr;
+typedef std::shared_ptr< ChessboardCorner > ChessboardCornerPtr;
 class ChessboardQuad;
-typedef boost::shared_ptr< ChessboardQuad > ChessboardQuadPtr;
+typedef std::shared_ptr< ChessboardQuad > ChessboardQuadPtr;
 
 class Chessboard
 {

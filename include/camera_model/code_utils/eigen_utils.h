@@ -1,7 +1,7 @@
 #ifndef EIGEN_UTLIS_H
 #define EIGEN_UTLIS_H
 
-#include <eigen3/Eigen/Eigen>
+#include <Eigen/Eigen>
 
 #include <iostream>
 

@@ -1,11 +1,7 @@
 #include "camera_model/gpl/gpl.h"
 
 #include <set>
-#ifdef _WIN32
-#include <winsock.h>
-#else
 #include <time.h>
-#endif
 
 
 // source: https://stackoverflow.com/questions/5167269/clock-gettime-alternative-in-mac-os-x
@@ -146,30 +142,30 @@ clock_gettime(int X, struct timespec *tp)
 }
 #endif
 
-unsigned long long timeInMicroseconds(void)
-{
-	 struct timespec tp;
-#ifdef __APPLE__
-     tp = orwl_gettime();
-#else
-	 clock_gettime(CLOCK_REALTIME, &tp);
-#endif
-
-	 return tp.tv_sec * 1000000 + tp.tv_nsec / 1000;
-}
-
-double timeInSeconds(void)
-{
-    struct timespec tp;
-#ifdef __APPLE__
-     tp = orwl_gettime();
-#else
-	 clock_gettime(CLOCK_REALTIME, &tp);
-#endif
-
-	 return static_cast<double>(tp.tv_sec) +
-			 static_cast<double>(tp.tv_nsec) / 1000000000.0;
-}
+//unsigned long long timeInMicroseconds(void)
+//{
+//	 struct timespec tp;
+//#ifdef __APPLE__
+//     tp = orwl_gettime();
+//#else
+//	 clock_gettime(CLOCK_REALTIME, &tp);
+//#endif
+//
+//	 return tp.tv_sec * 1000000 + tp.tv_nsec / 1000;
+//}
+//
+//double timeInSeconds(void)
+//{
+//    struct timespec tp;
+//#ifdef __APPLE__
+//     tp = orwl_gettime();
+//#else
+//	 clock_gettime(CLOCK_REALTIME, &tp);
+//#endif
+//
+//	 return static_cast<double>(tp.tv_sec) +
+//			 static_cast<double>(tp.tv_nsec) / 1000000000.0;
+//}
 
 float colormapAutumn[128][3] =
 {
@@ -901,9 +897,9 @@ timestampDiff(uint64_t t1, uint64_t t2)
     {
         uint64_t d = t2 - t1;
 
-        if (d > std::numeric_limits<long int>::max())
+        if (d > (std::numeric_limits<long int>::max)())
         {
-            return std::numeric_limits<long int>::max();
+            return (std::numeric_limits<long int>::max)();
         }
         else
         {
@@ -914,9 +910,9 @@ timestampDiff(uint64_t t1, uint64_t t2)
     {
         uint64_t d = t1 - t2;
 
-        if (d > std::numeric_limits<long int>::max())
+        if (d > (std::numeric_limits<long int>::max)())
         {
-            return std::numeric_limits<long int>::min();
+            return (std::numeric_limits<long int>::min)();
         }
         else
         {

@@ -188,8 +188,8 @@ class PinholeCamera : public Camera
     bool m_noDistortion;
 };
 
-typedef boost::shared_ptr< PinholeCamera > PinholeCameraPtr;
-typedef boost::shared_ptr< const PinholeCamera > PinholeCameraConstPtr;
+typedef std::shared_ptr< PinholeCamera > PinholeCameraPtr;
+typedef std::shared_ptr< const PinholeCamera > PinholeCameraConstPtr;
 
 template< typename T >
 void

@@ -206,8 +206,8 @@ class CataCamera : public Camera
     bool m_noDistortion;
 };
 
-typedef boost::shared_ptr< CataCamera > CataCameraPtr;
-typedef boost::shared_ptr< const CataCamera > CataCameraConstPtr;
+typedef std::shared_ptr< CataCamera > CataCameraPtr;
+typedef std::shared_ptr< const CataCamera > CataCameraConstPtr;
 
 template< typename T >
 void

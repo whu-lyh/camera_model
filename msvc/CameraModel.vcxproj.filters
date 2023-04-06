@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\intrinsic_calib.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\chessboard\Chessboard.cc">
+      <Filter>chessboard</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\calib\CameraCalibration.cc">
+      <Filter>calib</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\Edge.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\FloatImage.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\GLine2D.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\GLineSegment2D.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\Gaussian.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\GrayModel.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\Homography33.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\MathUtil.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\Quad.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\Segment.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\TagDetection.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\TagDetector.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\TagFamily.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag\UnionFindSimple.cc">
+      <Filter>apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag_frontend\GridCalibrationTargetAprilgrid.cpp">
+      <Filter>apriltagfrontend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\apriltag_frontend\GridCalibrationTargetBase.cpp">
+      <Filter>apriltagfrontend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\calib\CameraCalibrationTest.cc">
+      <Filter>calib</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\Camera.cc">
+      <Filter>cameramodels</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\CameraFactory.cc">
+      <Filter>cameramodels</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\CataCamera.cc">
+      <Filter>cameramodels</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\CostFunctionFactory.cc">
+      <Filter>cameramodels</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\EquidistantCamera.cc">
+      <Filter>cameramodels</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\FovCamera.cpp">
+      <Filter>cameramodels</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\PinholeCamera.cc">
+      <Filter>cameramodels</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\PinholeFullCamera.cc">
+      <Filter>cameramodels</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\PolyFisheyeCamera.cpp">
+      <Filter>cameramodels</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\ScaramuzzaCamera.cc">
+      <Filter>cameramodels</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\camera_models\SplineCamera.cpp">
+      <Filter>cameramodels</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\code_utils\cv_utils.cc">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\code_utils\math_utils\Polynomial.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\code_utils\poly_test.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\gpl\EigenQuaternionParameterization.cc">
+      <Filter>gpl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\gpl\gpl.cc">
+      <Filter>gpl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\sparse_graph\Transform.cc">
+      <Filter>sparsegraph</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\src\backward.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Edge.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\FloatImage.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\GLine2D.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\GLineSegment2D.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Gaussian.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\GrayModel.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Gridder.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Homography33.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\MathUtil.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Quad.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Segment.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag16h5.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag16h5_other.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag25h7.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag25h9.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag36h11.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag36h11_other.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\Tag36h9.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\TagDetection.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\TagDetector.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\TagFamily.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\UnionFindSimple.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\XYWeight.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag\pch.h">
+      <Filter>apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag_frontend\GridCalibrationTargetAprilgrid.hpp">
+      <Filter>apriltagfrontend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\apriltag_frontend\GridCalibrationTargetBase.hpp">
+      <Filter>apriltagfrontend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\calib\CameraCalibration.h">
+      <Filter>calib</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\calib\CameraCalibrationTest.h">
+      <Filter>calib</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\chessboard\Chessboard.h">
+      <Filter>chessboard</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\chessboard\ChessboardCorner.h">
+      <Filter>chessboard</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\chessboard\ChessboardQuad.h">
+      <Filter>chessboard</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\chessboard\Spline.h">
+      <Filter>chessboard</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\Camera.h">
+      <Filter>cameramodels</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\CameraFactory.h">
+      <Filter>cameramodels</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\CataCamera.h">
+      <Filter>cameramodels</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\CostFunctionFactory.h">
+      <Filter>cameramodels</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\EquidistantCamera.h">
+      <Filter>cameramodels</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\FovCamera.h">
+      <Filter>cameramodels</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\PinholeCamera.h">
+      <Filter>cameramodels</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\PinholeFullCamera.h">
+      <Filter>cameramodels</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\PolyFisheyeCamera.h">
+      <Filter>cameramodels</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\ScaramuzzaCamera.h">
+      <Filter>cameramodels</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\camera_models\SplineCamera.h">
+      <Filter>cameramodels</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\code_utils\cv_utils.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\code_utils\eigen_utils.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\code_utils\math_utils\Polynomial.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\code_utils\math_utils\math_utils.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\code_utils\ros_utils.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\code_utils\sys_utils.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\gpl\EigenQuaternionParameterization.h">
+      <Filter>gpl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\gpl\EigenUtils.h">
+      <Filter>gpl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\gpl\gpl.h">
+      <Filter>gpl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\include\camera_model\sparse_graph\Transform.h">
+      <Filter>sparsegraph</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\codefiles\NewVS\PointImageFusion\submodules\camera_model\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{39F15EEB-1FFA-3A56-BE9F-2E8CA39CBB0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{41462A21-8B06-30E8-8328-B22221287CEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="apriltag">
+      <UniqueIdentifier>{9C0F537B-609C-3AF2-8A3D-5A2B0C245492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="apriltagfrontend">
+      <UniqueIdentifier>{8FBD5090-84E5-38C1-9B0C-2413235F9360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="calib">
+      <UniqueIdentifier>{D97EA918-72F6-3E64-A651-B4CD0C6718C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cameramodels">
+      <UniqueIdentifier>{F57394BF-3740-31EE-8360-8EABEBEF740B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chessboard">
+      <UniqueIdentifier>{1AE0976C-AABE-398C-81E2-C5B542D2C042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gpl">
+      <UniqueIdentifier>{72E32423-CBC8-3D8D-B534-C0383CA1FF91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sparsegraph">
+      <UniqueIdentifier>{28C27A46-A706-34F6-87C2-EA7FBDEC7A73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{A1F9E724-8EF9-3DA8-A294-8947AF673F9E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

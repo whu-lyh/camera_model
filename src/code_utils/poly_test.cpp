@@ -1,10 +1,9 @@
 #include <iostream>
-#include <eigen3/Eigen/Core>
+#include <Eigen/Core>
 
-#include <code_utils/math_utils/Polynomial.h>
-#include <code_utils/eigen_utils.h>
-
-#include <code_utils/sys_utils.h>
+#include <camera_model/code_utils/math_utils/Polynomial.h>
+#include <camera_model/code_utils/eigen_utils.h>
+#include <camera_model/code_utils/sys_utils.h>
 
 using namespace std;
 using namespace Eigen;
@@ -119,7 +118,7 @@ void test_poly()
 
 }
 
-int main()
+int polytest()
 {
   eigen_utils::Vector vec(3);
   std::cout << "size :"<<endl << vec.size() <<std::endl;

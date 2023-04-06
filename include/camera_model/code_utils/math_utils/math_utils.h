@@ -1,7 +1,7 @@
 #ifndef _MATH_UTILS_H
 #define _MATH_UTILS_H
 
-#include <eigen3/Eigen/Eigen>
+#include <Eigen/Eigen>
 #include <math.h>
 //#include <code_utils/eigen_utils.h>
 #include "../eigen_utils.h"
